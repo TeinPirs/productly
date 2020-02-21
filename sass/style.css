@@ -50,11 +50,39 @@ h5 {
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 2.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header__buttons > .button {
+  margin-left: 14px;
+}
+
+.header__buttons > .button:first-child {
+  margin-left: 0;
 }
 
 .button_bordered {
   background: #ffffff;
   border: 1px solid #d7d7d7;
+  color: #544837;
+}
+
+.button_colored {
+  background: #ff9900;
+  color: #ffffff;
+  border: 1px solid #ff9900;
+}
+
+.button_colored:hover {
+  background: #ff7549;
+  border-color: #ff7549;
+}
+
+.button_bordered:hover {
+  background: #bcd0e5;
+  border-color: #bcd0e5;
 }
 
 .wrapper {
@@ -88,6 +116,24 @@ h5 {
 
 .contact-us {
   background-color: #ffeee1;
+}
+
+.promo {
+  padding: 10px 0;
+}
+
+.promo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo__contenr {
+  padding-right: 65px;
+}
+
+.proto__buttons > * {
+  margin-right: 44px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,17 @@
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 2.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header__buttons > .button {
+  margin-left: 14px;
+}
+
+.header__buttons > .button:first-child {
+  margin-left: 0;
 }
 
 .button_bordered {
@@ -14,6 +25,17 @@
 }
 
 .button_colored {
-  background: yellow;
+  background: $color-primary;
   color: $color-light;
+  border: 1px solid $color-primary;
+}
+
+.button_colored:hover {
+  background: $color-additional;
+  border-color: $color-additional;
+}
+
+.button_bordered:hover {
+  background: $color-hovered;
+  border-color: $color-hovered;
 }
