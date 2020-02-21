@@ -1,0 +1,19 @@
+.button {
+  font-family: "Open Sans", Verdana, sans-serif;
+  padding: 11px 25px 13px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.button_bordered {
+  background: $color-light;
+  border: 1px solid $color-border;
+  color: $color-text;
+}
+
+.button_colored {
+  background: yellow;
+  color: $color-light;
+}
