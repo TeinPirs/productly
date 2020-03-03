@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TeinPirs/productly/issues"
   },
-  "homepage": "https://github.com/TeinPirs/productly#readme"
+  "homepage": "https://github.com/TeinPirs/productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
