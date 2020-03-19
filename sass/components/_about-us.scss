@@ -14,9 +14,10 @@ $image-gap: 32px;
   display: flex;
   padding: 35px;
   position: relative;
+  flex-basis: 25%;
   width: calc(25% - $image-gap);
 }
-.employee__container {
+.employee-container {
   padding-right: $image-gap;
 }
 
