@@ -209,30 +209,30 @@
           conversion action (e.g., signing up for your newsletter, making a
           purchase).
         </p>
-        <div class="layout-3-column">
+        <div class="layout-3-column employee-container">
           <div class="employee block-shadowed">
             <div class="employee__content">
-              <h5>Kathy Rosenberg</h5>
+              <h5 class="employee__name">Kathy Rosenberg</h5>
               <p class="employee__title">Product Mannager</p>
-              <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+              <a class="employee__contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
             </div>
-            <img src="./img/employees/kathy.png" alt="Kathy">
+            <img class="employee__photo" src="./img/employees/kathy.png" alt="Kathy">
           </div>
           <div class="employee block-shadowed">
             <div class="employee__content">
               <h5 class="employee__name">Alexandra Boyarskaya</h5>
               <p class="employee__title">Support Marketing Specialist</p>
-              <a href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
+              <a class="employee__contact" href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
             </div>
-            <img src="./img/employees/alexandra.png" alt="Alexandra Boyarskaya">
+            <img class="employee__photo" src="./img/employees/alexandra.png" alt="Alexandra Boyarskaya">
           </div>
           <div class="employee block-shadowed">
             <div class="employee__content">
               <h5 class="employee__name">Melani Amini</h5>
               <p class="employee__title">Photographer</p>
-              <a href="mailto:melania@gmail.com">melania@gmail.com</a>
+              <a class="employee__contact" href="mailto:melania@gmail.com">melania@gmail.com</a>
             </div>
-            <img src="./img/employees/melani.png" alt="melania@gmail.com">
+            <img class="employee__photo" src="./img/employees/melani.png" alt="melania@gmail.com">
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@
         <div class="layout-2-column">
           <div class="contact-us__content">
 
-            <p>
+            <p class="contact-us__text">
               Your About Us page is vital. It’s often the first stop in any
               user’s journey through a website or blog. It also shouldn’t be
               their last, because first impressions count online just as much
@@ -252,12 +252,12 @@
               content or completing a conversion action (e.g., signing up for
               your newsletter, making a purchase).
             </p>
-            <p>
-              <span class="icon icon_phone"></span>
+            <p class="contact-us__link">
+              <span class="icon-round icon-round_white"><span class="icon icon_phone"></span></span>
               <a href="tel:+375 (22) 345-00-99">+375 (22) 345-00-99</a>
             </p>
-            <p>
-              <span class="icon icon_letter"></span>
+            <p class="contact-us__link">
+              <span class="icon-round icon-round_white"><span class="icon icon_letter"></span></span>
               <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
             </p>
           </div>
@@ -267,7 +267,8 @@
                 <input type="text" name="name" placeholder="Your name" />
                 <input type="text" name="email" placeholder="Your email" />
               </div>
-              <textarea class="contact-us__line" name="question" cols="30" rows="10"></textarea>
+              <textarea class="contact-us__line" name="question" cols="30" rows="10"
+                placeholder="What do you want to ask?"></textarea>
               <div class="contact-us__button">
                 <button type="submit" class="button button_colored">
                   Send
@@ -278,8 +279,8 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="wrapper">
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
         <a href="#" class="logo"><img src="/img/Logo.png" alt="Productly LCC"></a>
         <div class="footer-navigation">
           <div class="footer-navigation layout-3-column">
